@@ -1,15 +1,13 @@
-import TopBar from "./TopBar"
-import Header from "./Header"
+import TopBar from './TopBar';
+import Home from './Pages/Home/Home';
 
 function App() {
-
   return (
     <>
-   <TopBar/>
-   <Header/>
-       
+      <TopBar />
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

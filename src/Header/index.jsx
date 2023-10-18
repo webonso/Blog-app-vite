@@ -1,7 +1,14 @@
-import React from 'react'
+import './header.css';
+import Picture from "../assets/pexels-anna-shvets-3851556.jpg"
 
 export default function Index() {
   return (
-    <header>Hello</header>
-  )
+    <header className="header">
+      <div className="headerTitles">
+        <span className="headerTitlesm"> React & Node</span>
+        <span className="headerTitleLg">Blog</span>
+      </div>
+      <img className='headerImg' src={Picture} />
+    </header>
+  );
 }
