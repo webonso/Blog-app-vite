@@ -1,10 +1,12 @@
-import TopBar from "./components/TopBar"
+import TopBar from "./TopBar"
+import Header from "./Header"
 
 function App() {
 
   return (
     <>
    <TopBar/>
+   <Header/>
        
     </>
   )
