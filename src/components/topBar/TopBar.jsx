@@ -7,7 +7,7 @@ import {
   FaYoutube,
 } from 'react-icons/fa';
 
-function Index() {
+function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
@@ -34,4 +34,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default TopBar;
